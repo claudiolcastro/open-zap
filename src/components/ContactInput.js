@@ -30,6 +30,10 @@ export default function ContactInput() {
         style={{ display: 'block', padding: '12px', width: '300px', height: '100px' }}
       />
 
+      <p style={{ maxWidth: '300px', margin: '10px 0' }}>
+        Seguinte, tu vai mandar mensagem no <b>ZAP</b> sem precisar add o contato, sacou?
+      </p>
+
       <button
         onClick={() => sendNumberToZap()}
         style={{ display: 'block', padding: '12px 25px', cursor: 'pointer', margin: '10px 0' }}
