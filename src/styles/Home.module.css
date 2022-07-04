@@ -1,0 +1,9 @@
+.container {
+  background-color: #42f57b;
+  height: 100vh;
+  margin: 0;
+  padding: 0 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
