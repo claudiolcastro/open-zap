@@ -13,18 +13,18 @@ export default function ContactInput() {
 
   return (
     <div>
-      <h2>Inicie uma converca no whatsapp sem precisar adicionar um contato</h2>
+      <h2>Inicie uma conversa no WhatsApp sem precisar adicionar um contato</h2>
       <p>Ex: 21991910000</p>
 
       <input
         type="tel"
-        placeholder="contatinho"
+        placeholder="Numero do contato"
         onChange={(e) => setNumber(e.target.value)}
         style={{ display: "block", padding: "8px", margin: "10px 0" }}
       />
 
       <textarea
-        placeholder="meteu essa?"
+        placeholder="Sua mensagem (opicional)"
         onChange={(e) => setMessage(e.target.value)}
         style={{
           display: "block",
@@ -35,8 +35,7 @@ export default function ContactInput() {
       />
 
       <p style={{ maxWidth: "300px", margin: "10px 0" }}>
-        Seguinte, tu vai mandar mensagem no <b>ZAP</b> sem precisar add o
-        contato, sacou?
+        Ao clicar, uma conversa no WhatsApp será aberta com o contato
       </p>
 
       <button
@@ -48,7 +47,7 @@ export default function ContactInput() {
           margin: "10px 0",
         }}
       >
-        VAI!
+        Conversar
       </button>
     </div>
   );
