@@ -1,0 +1,35 @@
+.numberInput {
+  display: "block";
+  padding: 8px;
+  margin: 10px 0;
+  height: 55px;
+}
+
+.messageInput {
+  display: block;
+  padding: 12px;
+  width: 300px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.numberInput,
+.messageInput {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.button {
+  display: block;
+  padding: 12px 25px;
+  cursor: pointer;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #128c7e;
+  color: #ffffff;
+}
